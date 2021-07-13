@@ -1,38 +1,60 @@
-.App {
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* **********************************NAVBAR******************************************** */
+.logo{
+  width:8.25rem;
+  height:3.25rem;
+}
+/* **********************************NAV LINKS******************************************** */
+nav a.nav-link{
+  font-weight:500;
+  letter-spacing:0.038rem;
+  cursor:pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color:#fff !important;
+  border-top: 0.188rem solid rgba(255, 255, 255,0);
+}
+.navbar-brand{
+  max-width:9rem;
+  padding:0 !important;
+  height:6rem !important;
+}
+.navbar-nav > li > a.active, .navbar-nav >li >a.active:focus{
+  border-top: 0.188rem solid #f9ab00;
+}
+.navbar-nav > li > a:hover{
+  border-top: 0.188rem solid #f9ab00;
+}
+/* **********************************HEADER******************************************** */
+.header-wraper{
+  position: relative;
+  background:url('./assets/header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+.main-info{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-info h1{
+  color: #f9ab00;
+  text-transform: uppercase;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* **********************TYPED TEXT*********************************************************** */
+.typed-text{
+  font-size:2rem;
+  color:#fff;
 }
