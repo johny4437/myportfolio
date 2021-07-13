@@ -1,11 +1,14 @@
 body{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif !important;
 }
 
 /* **********************************NAVBAR******************************************** */
+nav{
+  z-index:2;
+}
 .logo{
   width:8.25rem;
-  height:3.25rem;
+  height:3.0rem;
 }
 /* **********************************NAV LINKS******************************************** */
 nav a.nav-link{
@@ -44,17 +47,83 @@ nav ul li{
 }
 .main-info{
   display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  z-index: 1;
 }
 .main-info h1{
   color: #f9ab00;
   text-transform: uppercase;
 }
+
+  
 /* **********************TYPED TEXT*********************************************************** */
 .typed-text{
   font-size:2rem;
   color:#fff;
+}
+/* **********************************HEADER MAIN OFFER BUTTON******************************************** */
+.btn-main-offer{
+  border:1px solid #ef3045;
+  text-transform: uppercase;
+  border-radius:0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem; 
+  color:#fff;
+  margin:2rem;
+  text-decoration: none;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color:#d35400 ;
+  color:#fff;
+}
+/* **********************************PARTICLES******************************************** */
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+/* **********************************ABOUT ME******************************************** */
+.photo-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img{
+  width:16rem;
+  border-radius:50%;
+  padding:.3rem;
+  border:1px solid #d35400;
+}
+.about-heading{
+  text-transform: uppercase;
+  color:#d35400;
+}
+
+/* **********************************MEDIA******************************************** */
+@media(max-width: 768px){
+  .particles-canvas{
+    display: none;
+  }
+  .main-info h1{
+    font-size: 1.5rem !important;
+  }
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+@media(max-width: 468px){
+  .profile-img{
+    width: 10rem;
+  }
 }
