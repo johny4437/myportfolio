@@ -4,7 +4,9 @@ import NavBar from './components/NavBar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
 import Particles from 'react-particles-js';
+
 function App() {
   return (
     <div className="App">
@@ -33,6 +35,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Services/>
+      <Portfolio/>
     </div>
   );
 }

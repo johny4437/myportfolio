@@ -144,6 +144,7 @@ nav ul li{
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background:#fff;
+  transition: 0.3s all
 }
 .services .box:hover{
   background:#f9ab00;
@@ -158,6 +159,19 @@ nav ul li{
 }
 .services .box:hover p{
   color:#fff;
+}
+/* **********************************PORTFOLIO******************************************** */
+.portfolio-wrapper{
+  background:#ffffff;
+  padding: 3rem 0;
+}
+.portfolio-image{
+  width:15rem;
+  border:0.063rem solid #f9ab00;
+  padding: 0 0.5rem;
+}
+.portfolio-image-box{
+  margin: 1rem;
 }
 /* **********************************MEDIA******************************************** */
 @media(max-width: 768px){
