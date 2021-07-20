@@ -5,6 +5,8 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testmonials';
+import Contacts from './components/Contacts';
 import Particles from 'react-particles-js';
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
       <AboutMe/>
       <Services/>
       <Portfolio/>
+      <Testimonials/>
+      <Contacts/>
     </div>
   );
 }
