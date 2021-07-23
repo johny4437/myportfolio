@@ -45,7 +45,7 @@ nav ul li{
   padding:0 !important;
   height:6rem !important;
 }
-.navbar-nav > li > a.active, .navbar-nav >li >a.active:focus{
+.navbar-nav > li > a.active, .navbar-nav >li >a:focus{
   border-top: 0.188rem solid #f9ab00;
 }
 .navbar-nav > li > a:hover{
@@ -57,7 +57,7 @@ nav ul li{
   background:url('./assets/header.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
 }
 .main-info{
   display:flex;
@@ -231,6 +231,9 @@ nav ul li{
 .hyper-link:hover{
   cursor:pointer;
   color:var(--primary-red);
+}
+.popupbox-wrapper{
+  margin-top:8rem;  
 }
 /* **********************************TESTMONIALS******************************************** */
 .testmonials{

@@ -3,7 +3,7 @@ import TestmonialsCarrousel from './TestmonialsCarrousel';
 
 function Testmonials() {
     return (
-        <div className="testmonials">
+        <div className="testmonials" id="testmonials">
             <h1>meus clientes</h1>
             <div className="container">
                 <div className="testmonials-content">

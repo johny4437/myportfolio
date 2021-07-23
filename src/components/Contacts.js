@@ -38,7 +38,7 @@ const Contacts = () => {
             });
         }
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <div className="text-center">
                 <h1>Contato</h1>
                 <p>Por favor preencha o formulário e descreva as necessidades do seu projeto, que entraremos em Contato

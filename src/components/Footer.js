@@ -21,7 +21,7 @@ import {
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 col-sm-6">
+                    {/* <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
                             <p>city Moscow main strreee</p>
                         </div>
@@ -36,7 +36,7 @@ import {
                         <div className="d-flex">
                             <p>johnyanastaciods@gmail.com</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
@@ -54,6 +54,42 @@ import {
                                 <a className="footer-nav">Contatos</a>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                        <div className="d-flex justify-content-center">
+                            <FacebookShareButton
+                                url={"https://www.youtube.com/channel/UCq3erTHXOjr45nHtTFqRDuA"}
+                                quote={"Desenvolvedor FullStack"}
+                                hashtag={"#javascript"}
+                            >
+                                <FacebookIcon className="mx-3" size={36}/>
+                            </FacebookShareButton>
+                            <TwitterShareButton
+                                url={"https://www.youtube.com/channel/UCq3erTHXOjr45nHtTFqRDuA"}
+                                quote={"Desenvolvedor FullStack"}
+                                hashtag={"#javascript"}
+                            >
+                                <TwitterIcon className="mx-3" size={36}/>
+                            </TwitterShareButton>
+                            <LinkedinShareButton
+                                url={"https://www.youtube.com/channel/UCq3erTHXOjr45nHtTFqRDuA"}
+                                quote={"Desenvolvedor FullStack"}
+                                hashtag={"#javascript"}
+                            >
+                                <LinkedinIcon className="mx-3" size={36}/>
+                            </LinkedinShareButton>
+                            <RedditShareButton
+                                url={"https://www.youtube.com/channel/UCq3erTHXOjr45nHtTFqRDuA"}
+                                quote={"Desenvolvedor FullStack"}
+                                hashtag={"#javascript"}
+                            >
+                                <RedditIcon className="mx-3" size={36}/>
+                            </RedditShareButton>
+                        </div>
+                        <p className="pt-3 text-center">
+                            Copyright&copy;
+                            {new Date().getFullYear()}&nbsp;JOHNY ANASTACIO | All Rights Reserved
+                        </p>
                     </div>
                 </div>
             </div>
