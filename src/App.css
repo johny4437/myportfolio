@@ -352,8 +352,29 @@ textarea.form-control{
   font-weight:900;
   color:var(--primary-green);
 }
-
-
+/* *********************************FOOTER******************************************** */
+.footer{
+  background:var(--primary-black);
+  color:var(--primary-dark-grey);
+  padding:3rem;
+}
+.footer a{
+  text-decoration:none;
+  color:var(--primary-dark-grey)
+}
+.footer a:hover{
+  text-decoration:none;
+  cursor:pointer;
+  color:var(--primary-orange);
+}
+.footer p{
+  margin-bottom: 0;
+}
+.footer a .whatsapp{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 

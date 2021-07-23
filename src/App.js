@@ -7,6 +7,7 @@ import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testmonials';
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 import Particles from 'react-particles-js';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Portfolio/>
       <Testimonials/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 }
